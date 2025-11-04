@@ -2,11 +2,15 @@
 
 ![Platform Banner](https://img.shields.io/badge/Platform-Student%20Collaboration-blue?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.8%2B-informational?style=for-the-badge&logo=python)
+![.NET](https://img.shields.io/badge/.NET-Framework-informational?style=for-the-badge&logo=dotnet)
 
 ## 🌟 Overview
 
-Empowering student collaboration and learning, our platform provides a vibrant space for sharing projects, seeking help, and networking. Join us to elevate your educational journey!
+Developed a web application enabling students to share projects, network, ask questions, and collaborate, enhancing peer-to-peer learning and community engagement.
+
+Implemented key features including project sharing, Q&A support, gamification, and discussion forums.
+
+Utilized C#, .NET for backend, and HTML, CSS, Bootstrap for frontend development, with MYSQL for database.
 
 ## ✨ Key Features
 
@@ -20,8 +24,10 @@ Empowering student collaboration and learning, our platform provides a vibrant s
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8+
-- Node.js & npm
+
+- .NET Framework 4.7.2+
+- Visual Studio or Visual Studio Code
+- MySQL Server
 - Git
 
 ### Installation
@@ -31,33 +37,35 @@ Empowering student collaboration and learning, our platform provides a vibrant s
 git clone https://github.com/SakshiTamshetti/Student-Networking-Collaboration-Platform.git
 cd Student-Networking-Collaboration-Platform
 
-# Install dependencies
-npm install
+# Install dependencies and build
+dotnet restore
+dotnet build
 
-# Start the development server
-npm start
+# Start the application
+dotnet run
 ```
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React, HTML5, CSS3, JavaScript
-- **Backend:** Python, Flask/Django
-- **Database:** MongoDB
-- **Authentication:** JWT
+- **Frontend:** HTML, CSS, Bootstrap, JavaScript
+- **Backend:** C#, .NET
+- **Database:** MySQL
+- **Authentication:** .NET Identity
 
 ## 📋 Project Structure
 
 ```
-├── frontend/        # React frontend
-├── backend/         # Python backend
-├── database/        # Database schemas
-├── docs/           # Documentation
-└── README.md       # This file
+├── Frontend/        # HTML, CSS, Bootstrap frontend
+├── Backend/         # C# .NET backend
+├── Database/        # MySQL database schemas
+├── Docs/            # Documentation
+└── README.md        # This file
 ```
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to:
+
 - Fork the repository
 - Create a feature branch (`git checkout -b feature/AmazingFeature`)
 - Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -71,6 +79,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 
 **Sakshi Tamshetti**
+
 - 🔗 [GitHub](https://github.com/SakshiTamshetti)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/sakshi-t-311123256)
 - 🔗 [Stack Overflow](https://stackoverflow.com/users/18289488/sakshi-tamshetti)
