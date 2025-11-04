@@ -82,7 +82,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - 🔗 [GitHub](https://github.com/SakshiTamshetti)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/sakshi-t-311123256)
-- 🔗 [Stack Overflow](https://stackoverflow.com/users/18289488/sakshi-tamshetti)
 
 ## 📞 Support
 
