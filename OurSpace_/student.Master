@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="student.master.cs" Inherits="ourspace.student" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="StyleSheet1.css" rel="Stylesheet" />
+   
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+
+<form runat="server">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Our Space</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="view_project_requests.aspx"  >View Project Request</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="uploadproject.aspx">Upload Project</a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="student_view_projects.aspx">Own Projects</a></li>
+            <li><a class="dropdown-item" href="s_othersprojects.aspx">Others Projects</a></li>
+          </ul>
+        </li>
+        
+
+
+
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Article
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="student_add_articles.aspx">Add Article</a></li>
+            <li><a class="dropdown-item" href="s_readarticles.aspx">Read Articles</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            QnA
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="student_qna.aspx">Add Question</a></li>
+            <li><a class="dropdown-item" href="s_otherqna.aspx">Read Question</a></li>
+          </ul>
+        </li>
+
+
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Events
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="add_events.aspx">Add Events</a></li>
+            <li><a class="dropdown-item" href="others_events.aspx">Others Event</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="uploadresume.aspx">Upload Resume</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="student_change_pass.aspx">Change Password</a>
+        </li>
+
+        <li class="nav-item">
+          <asp:Label runat="server" ID="lblwelcome" class="nav-link" text="Welcome" 
+                style="font-weight: 700"></asp:Label>
+        </li>
+
+        <li class="nav-item">
+          <asp:LinkButton runat="server" ID="lbtnlogout" class="nav-link" text="Logout" CausesValidation="false" 
+                onclick="lbtnlogout_Click"></asp:LinkButton>
+        </li>
+
+
+        
+      </ul>
+    </div>
+ 
+</nav>
+
+
+ <div class="smain">
+   
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </div>
+   
+    </div> </form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
