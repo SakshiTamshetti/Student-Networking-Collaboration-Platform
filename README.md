@@ -52,15 +52,6 @@ dotnet run
 - **Database:** MySQL
 - **Authentication:** .NET Identity
 
-## 📋 Project Structure
-
-```
-├── Frontend/        # HTML, CSS, Bootstrap frontend
-├── Backend/         # C# .NET backend
-├── Database/        # MySQL database schemas
-├── Docs/            # Documentation
-└── README.md        # This file
-```
 
 ## 🤝 Contributing
 
