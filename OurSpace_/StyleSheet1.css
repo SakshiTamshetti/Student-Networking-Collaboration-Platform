@@ -1,0 +1,145 @@
+﻿
+.zoom {
+  
+  
+  transition: transform .5s; /* Animation */
+  
+}
+
+.zoom:hover 
+{
+    background-color: #fdd97c;
+    color:Black;
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+
+.containerdiv
+{
+    margin-top:1%;
+    padding:25px
+    }
+    
+   
+        
+   .navp
+   {
+       padding-top:1%;
+       padding-bottom:1%;
+   }
+
+.vpr
+{
+    background-image:url('https://img.freepik.com/free-photo/green-light-green-blur-gradient-background_1258-83068.jpg?size=626&ext=jpg&ga=GA1.1.1269040533.1710288000&semt=ais');
+    
+}
+
+.fnav
+{
+   background: rgb(28,190,175);
+background: linear-gradient(328deg, rgba(28,190,175,1) 69%, rgba(9,181,55,0.5298494397759104) 100%);
+}
+
+.flogin
+{
+    background-color:rgb(71, 135, 120,0.1);
+    }
+.fmain
+{
+    background-image:url(https://w0.peakpx.com/wallpaper/26/735/HD-wallpaper-vector-landscape-vector-nature.jpg);
+    height:80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:6%;
+}
+
+.fid
+{
+      background: rgb(28,190,175,0.3);
+      border-radius:5%;
+}
+
+.smain
+{
+    background-image:url(https://www.vandelaydesign.com/wp-content/uploads/mountain-wallpaper-16.jpg);
+    height:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:7.6%;
+    
+    
+}
+
+.scon
+{
+  background-color:rgb(255, 255, 255,0.2);
+  border-radius:10%;   
+}
+/* GridView container */
+.s-gridview {
+    border-collapse: collapse;
+    width: 80%; /* Adjusted width */
+    margin: auto; /* Centering the grid */
+}
+
+/* Header style */
+.s-blue-header {
+    background-color: #007BFF; /* Blue color for header */
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Animation for background color */
+}
+
+/* Footer style */
+.s-blue-footer {
+    background-color: #E9ECEF; /* Light gray color for footer */
+    color: #212529; /* Dark color for text */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Animation for background color */
+}
+
+/* Row style */
+.s-blue-row {
+    background-color: #F8F9FA; /* Light gray color for odd rows */
+    color: #212529; /* Dark color for text */
+    transition: background-color 0.3s ease; /* Animation for background color */
+}
+
+/* Selected row style */
+.s-blue-selected-row {
+    background-color: #007BFF; /* Blue color for selected row */
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Animation for background color */
+}
+
+/* Delete button style */
+.s-delete-btn {
+    background-color: #DC3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Animation for background color */
+}
+
+/* Hover effect for delete button */
+.s-delete-btn:hover {
+    background-color: #C82333; /* Darker red color on hover */
+}
+.stextbox
+{
+    margin-left:17%;
+     margin-right:17%;
+    }
+    .s-carttitle
+    {
+        background-color:rgb(71, 135, 120,0.2);
+  border-radius:11%;   
+  padding: 5px 10px;
+        }
