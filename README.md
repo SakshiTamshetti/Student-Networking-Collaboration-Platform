@@ -30,20 +30,27 @@ Utilized C#, .NET for backend, and HTML, CSS, Bootstrap for frontend development
 - MySQL Server
 - Git
 
-### Installation
+## 💿 Windows Setup Installer
 
-```bash
-# Clone the repository
-git clone https://github.com/SakshiTamshetti/Student-Networking-Collaboration-Platform.git
-cd Student-Networking-Collaboration-Platform
+To simplify installation, a `setup.exe` file has been included in this repository.  
+This allows users to install and run the application without manually building the project from source.
 
-# Install dependencies and build
-dotnet restore
-dotnet build
+### 📥 Installation Using setup.exe
 
-# Start the application
-dotnet run
-```
+1. Download the `setup.exe` file from the repository.
+2. Double-click `setup.exe` to start the installer.
+3. Follow the on-screen instructions to complete the installation.
+4. Launch the application from the desktop shortcut or installation folder.
+
+### ⚠️ Important Notes
+
+- Ensure **.NET Framework 4.7.2 or later** is installed on your system.
+- Make sure **MySQL Server** is installed and running.
+- If Windows displays a security warning:
+  - Click **More Info**
+  - Select **Run Anyway**
+
+This installer helps streamline the setup process for users who prefer a ready-to-use installation package.
 
 ## 🛠 Tech Stack
 
@@ -51,6 +58,7 @@ dotnet run
 - **Backend:** C#, .NET
 - **Database:** MySQL
 - **Authentication:** .NET Identity
+
 
 
 ## 🤝 Contributing
